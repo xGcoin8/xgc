@@ -9,42 +9,12 @@
       .bg-red {
         background: red;
       }
-      .color-red {
-        color: red;
-      }
-      .bg-black5 {
-        background: #0000005d;
-      }
-      @font-face {
-        font-family: "PoppinsMedium";
-        src: url("./font/Poppins-Medium.ttf") format("truetype");
-        font-weight: normal;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: "PoppinsBold";
-        src: url("./font/Poppins-Bold.ttf") format("truetype");
-        font-weight: normal;
-        font-style: normal;
-      }
-      .fontBold {
-        font-family: "PoppinsBold", sans-serif;
-      }
-      @font-face {
-        font-family: "PoppinsRegular";
-        src: url("./font/Poppins-Regular.ttf") format("truetype");
-        font-weight: normal;
-        font-style: normal;
-      }
-      .fontRegular {
-        font-family: "PoppinsRegular", sans-serif;
-      }
     </style>
   </head>
   <script src="https://cdn.tailwindcss.com"></script>
   <body>
     <div id="root"></div>
-    <header class="flex overflow-hidden flex-col py-3.5 bg-white items-center">
+    <header class="flex overflow-hidden flex-col pt-3.5 bg-white">
       <div
         class="flex flex-wrap gap-5 justify-between self-center w-full max-w-[1331px] max-md:max-w-full"
       >
@@ -82,7 +52,7 @@
 
     <main class="flex justify-center flex-col">
       <section
-        class="flex relative flex-col w-full min-h-[960px] max-md:max-w-full"
+        class="flex relative flex-col mt-5 w-full min-h-[960px] max-md:max-w-full"
       >
         <img
           loading="lazy"
@@ -91,11 +61,11 @@
           class="object-cover absolute inset-0 size-full"
         />
         <div
-          class="flex relative flex-col justify-center items-center px-20 py-40 w-full max-md:px-5 max-md:py-24 max-md:max-w-full bg-black5"
+          class="flex relative flex-col justify-center items-center px-20 py-40 w-full max-md:px-5 max-md:py-24 max-md:max-w-full"
         >
-          <div class="flex flex-col mb-0 max-w-full max-md:mb-2.5">
+          <div class="flex flex-col mb-0 max-w-full w-[804px] max-md:mb-2.5">
             <h2
-              class="text-7xl font-extrabold leading-none text-center text-yellow-400 max-md:max-w-full max-md:text-4xl"
+              class="text-8xl font-extrabold leading-none text-center text-yellow-400 max-md:max-w-full max-md:text-4xl"
             >
               Make China Great Again
             </h2>
@@ -117,9 +87,9 @@
             </div>
             <a
               href="#"
-              class="flex flex-col justify-center self-center px-3.5 py-3 ml-4 max-w-full font-semibold leading-none text-red-600 bg-red w-[353px] max-md:text-4xl"
+              class="flex flex-col justify-center self-center px-3.5 py-3 ml-4 max-w-full text-5xl font-semibold leading-none text-red-600 bg-red w-[353px] max-md:text-4xl"
             >
-              <span class="py-6 bg-yellow-400 flex justify-center text-5xl"
+              <span class="px-10 py-6 bg-yellow-400 max-md:px-5 max-md:text-4xl"
                 >BUY $MAKE</span
               >
             </a>
@@ -130,9 +100,9 @@
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/1cfca2c5afff0a4bf452129b073344331cfc43c13587bfafd06825765b6bee7e?placeholderIfAbsent=true&apiKey=f2cfff220ba847218a7635b334890a5b"
                 alt=""
-                class="object-contain shrink-0 self-stretch my-auto aspect-[0.9] w-[26px]"
+                class="object-contain shrink-0 self-stretch my-auto aspect-[0.9] w-[26px] mr-4"
               />
-              <p class="self-stretch whitespace-nowrap">
+              <p class="grow shrink self-stretch whitespace-nowrap">
                 CA: D5eRgzMxS98wX8HE2sag8umRixzHuBUaAyWbKnnqpump
               </p>
               <img
@@ -147,50 +117,55 @@
       </section>
 
       <section
-        class="flex flex-col items-center pb-11 w-full text-5xl font-bold leading-none text-white whitespace-nowrap bg-red max-md:max-w-full"
+        class="flex flex-col items-center pb-11 mt-3 w-full text-5xl font-bold leading-none text-white whitespace-nowrap bg-red max-md:max-w-full relative"
       >
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/d001f61e608a3f46657f21c5a72d3a1c71d8a00113f478a85512c01437ec3bca?placeholderIfAbsent=true&apiKey=f2cfff220ba847218a7635b334890a5b"
           alt=""
-          class="object-contain z-10 self-stretch mt-0 w-full max-md:max-w-full"
+          class="object-contain z-10 self-stretch mt-0 w-full aspect-[25] max-md:max-w-full absolute -top-3"
         />
         <h2 class="mt-24 max-md:mt-10">TOKENOMICS</h2>
         <img
           loading="lazy"
-          src=" https://cdn.builder.io/api/v1/image/assets/TEMP/88af3c2f40343c8506e2cf3df922cb247cf8b5e53462032b40c9cbe27cbe5d95?placeholderIfAbsent=true&apiKey=f2cfff220ba847218a7635b334890a5b"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/918eeb26c8c41494cf7b3a217855708d25d7f2c60e941ae700f0c40dd5c5edf2?placeholderIfAbsent=true&apiKey=f2cfff220ba847218a7635b334890a5b"
           alt="Tokenomics chart"
           class="object-contain mt-4 w-full rounded-none aspect-[1.86] max-w-[1000px] max-md:max-w-full"
         />
       </section>
 
       <section
-        class="flex relative flex-col justify-center items-center px-20 pt-44 w-full text-5xl font-bold leading-none text-red-600 min-h-[450px] max-md:px-5 max-md:py-24 max-md:max-w-full"
+        class="flex relative flex-col justify-center items-center px-20 pt-44 w-full text-5xl font-bold leading-none text-red-600 min-h-[650px] max-md:px-5 max-md:py-24 max-md:max-w-full"
       >
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/deb1896f7b07681b2f7f9fc650c91c8849bbf34dfa60d35b6b829c87011deda1?placeholderIfAbsent=true&apiKey=f2cfff220ba847218a7635b334890a5b"
           alt="Background for How to Buy section"
           class="object-cover absolute inset-0 size-full"
-          style="height: 500px"
         />
         <div
-          class="flex relative flex-col mb-0 max-w-full max-md:mb-2.5 text-4xl"
+          class="flex relative flex-col mb-0 max-w-full w-[438px] max-md:mb-2.5"
         >
-          <h2 class="mt-44 max-md:mt-10 fontBold">How to Buy</h2>
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/04ac2766c1146373d57ca6175ac05da1f27b9fe337ae39ba3fa0e3e49723a443?placeholderIfAbsent=true&apiKey=f2cfff220ba847218a7635b334890a5b"
+            alt=""
+            class="object-contain w-px aspect-square"
+          />
+          <h2 class="self-end mt-64 max-md:mt-10">How to Buy</h2>
         </div>
       </section>
 
       <section
-        class="z-10 self-center mt-0 w-full max-w-[1096px] max-md:max-w-full fontRegular"
+        class="z-10 self-center mt-0 w-full max-w-[1096px] max-md:max-w-full"
       >
         <div class="flex gap-5 max-md:flex-col">
           <article class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div
               class="flex flex-col grow px-12 py-14 w-full text-white bg-red rounded-xl max-md:px-5 max-md:mt-6 max-md:max-w-full"
             >
-              <h3 class="self-start text-4xl font-semibold leading-none">01</h3>
-              <p class="mt-5 text-2xl leading-10 max-md:max-w-full">
+              <h3 class="self-start text-5xl font-semibold leading-none">01</h3>
+              <p class="mt-5 text-3xl leading-10 max-md:max-w-full">
                 BabyPepe is here to take over! 🐸🚀 Ready to make Pepe proud and
                 carry on the legacy? It's time
               </p>
@@ -200,8 +175,8 @@
             <div
               class="flex flex-col grow px-12 py-14 w-full text-white bg-red rounded-xl max-md:px-5 max-md:mt-6 max-md:max-w-full"
             >
-              <h3 class="self-start text-4xl font-semibold leading-none">02</h3>
-              <p class="mt-5 text-2xl leading-10">
+              <h3 class="self-start text-5xl font-semibold leading-none">02</h3>
+              <p class="mt-5 text-3xl leading-10">
                 BabyPepe is here to take over! 🐸🚀 Ready to make Pepe proud and
                 carry on the legacy? It's time
               </p>
@@ -210,16 +185,14 @@
         </div>
       </section>
 
-      <section
-        class="self-center mt-8 w-full max-w-[1097px] max-md:max-w-full fontRegular"
-      >
+      <section class="self-center mt-8 w-full max-w-[1097px] max-md:max-w-full">
         <div class="flex gap-5 max-md:flex-col">
           <article class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div
               class="flex flex-col grow px-12 py-14 w-full text-white bg-red rounded-xl max-md:px-5 max-md:mt-7 max-md:max-w-full"
             >
-              <h3 class="self-start text-4xl font-semibold leading-none">03</h3>
-              <p class="mt-5 text-2xl leading-10 max-md:max-w-full">
+              <h3 class="self-start text-5xl font-semibold leading-none">03</h3>
+              <p class="mt-5 text-3xl leading-10 max-md:max-w-full">
                 BabyPepe is here to take over! 🐸🚀 Ready to make Pepe proud and
                 carry on the legacy? It's time
               </p>
@@ -229,8 +202,8 @@
             <div
               class="flex flex-col grow px-9 py-14 w-full text-white bg-red rounded-xl max-md:px-5 max-md:mt-7 max-md:max-w-full"
             >
-              <h3 class="self-start text-4xl font-semibold leading-none">04</h3>
-              <p class="mt-5 text-2xl leading-10 max-md:max-w-full">
+              <h3 class="self-start text-5xl font-semibold leading-none">04</h3>
+              <p class="mt-5 text-3xl leading-10 max-md:max-w-full">
                 BabyPepe is here to take over! 🐸🚀 Ready to make Pepe proud and
                 carry on the legacy? It's time
               </p>
@@ -243,15 +216,15 @@
         loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/d001f61e608a3f46657f21c5a72d3a1c71d8a00113f478a85512c01437ec3bca?placeholderIfAbsent=true&apiKey=f2cfff220ba847218a7635b334890a5b"
         alt=""
-        class="object-contain mt-24 w-full max-md:mt-10 max-md:max-w-full"
+        class="object-contain mt-24 w-full aspect-[25] max-md:mt-10 max-md:max-w-full"
       />
 
       <section
-        class="flex flex-col items-center pt-32 w-full bg-white max-md:pt-24 max-md:max-w-full px-10 relative pb-8"
+        class="flex flex-col items-center pt-32 w-full bg-white max-md:pt-24 max-md:max-w-full px-10"
       >
-        <h2 class="text-5xl font-bold leading-none color-red">How to Buy</h2>
+        <h2 class="text-5xl font-bold leading-none text-red-600">How to Buy</h2>
         <p
-          class="mt-6 text-2xl leading-9 text-center text-black max-w-[1096px]"
+          class="mt-6 text-2xl leading-9 text-center text-black max-md:max-w-full"
         >
           BabyPepe is here to take over! 🐸🚀 Ready to make Pepe proud and carry
           on the legacy? It's timeBabyPepe is here to take over! 🐸🚀 Ready to
@@ -263,13 +236,13 @@
           alt="Illustration for How to Buy section"
           class="object-contain z-10 mt-32 max-w-full aspect-[0.98] w-[477px] max-md:mt-10"
         />
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/d001f61e608a3f46657f21c5a72d3a1c71d8a00113f478a85512c01437ec3bca?placeholderIfAbsent=true&apiKey=f2cfff220ba847218a7635b334890a5b"
-          alt=""
-          class="object-contain z-10 self-stretch -mb-3.5 w-full max-md:mb-2.5 max-md:max-w-full absolute bottom-0 left-0"
-        />
       </section>
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/d001f61e608a3f46657f21c5a72d3a1c71d8a00113f478a85512c01437ec3bca?placeholderIfAbsent=true&apiKey=f2cfff220ba847218a7635b334890a5b"
+        alt=""
+        class="object-contain z-10 self-stretch -mb-3.5 w-full aspect-[25] max-md:mb-2.5 max-md:max-w-full"
+      />
     </main>
 
     <footer
@@ -277,9 +250,8 @@
     >
       <p>
         THIS TOKEN IS SIMPLY A MEMECOIN WITH NO INTRINSIC VALUE OR EXPECTATION
-        OF FINANCIAL RETURN.
+        OF FINANCIAL RETURN. © 2024 BY TRUMPACHU - ALL RIGHTS RESERVED
       </p>
-      <p>© 2024 BY TRUMPACHU - ALL RIGHTS RESERVED</p>
     </footer>
   </body>
 </html>
